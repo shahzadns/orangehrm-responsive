@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "HRIS Responsive",
+  "description": "Handy extension to browse HRIS as responsive app with Tablet and Phone screens",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": {
+      "32": "assets/icons/app.png"
+    },
+    "default_title": "HRIS Responsive"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://hr.mobilelive.ca/*"],
+      "css": ["assets/css/common.css", "assets/css/tablet.css", "assets/css/phone.css"],
+      "js": ["assets/scripts/main.js", "assets/scripts/tablet.js", "assets/scripts/phone.js"]
+    }
+  ]
+}

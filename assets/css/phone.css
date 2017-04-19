@@ -1,0 +1,26 @@
+
+/* === Timesheet page === */
+
+@media only screen and (max-width: 768px) {
+    .timesheet.box{
+
+    }
+    .timesheet.box .top h3{
+        width: 100%;
+    }
+    .timesheet.box .top form{
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    .timesheet.box .top select{
+       margin: 5px 0;
+    }
+    .timesheet.box .top #btnAddTimesheet{
+        display: block;
+        float: left;
+        width: 100%;
+    }
+}
+
+
